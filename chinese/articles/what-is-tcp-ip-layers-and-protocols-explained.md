@@ -1,39 +1,38 @@
-> * 原文：[What is TCP/IP? Layers and Protocols Explained TCP/IP 协议详解](https://www.freecodecamp.org/news/what-is-tcp-ip-layers-and-protocols-explained/)
-> * 作者：Victoria Drake
-> * 译者：Albert210
+> * 原文：[TCP/IP 是什么？层和协议解释](https://www.freecodecamp.org/news/what-is-tcp-ip-layers-and-protocols-explained/)
+> * 作者：Victoria Drake（维多利亚·德雷克）
+> * 译者：Albert210（阿尔伯特210）
 > * 校对者：
 
 ![TCP/IP是什么？层和协议解释](https://www.freecodecamp.org/news/content/images/size/w2000/2020/11/cover-2.png)
 
-创造某物的过程中，很重要的一部分是能够想象出尚未存在的事物。
+在创造某物的过程中，能够想象出尚未存在的事物是很重要的一部分。
 
-这项技能对互联网的创建至关重要。如果没有人想象过大多数人现在每天视为理所当然的基础技术，就不会有猫的梗图。
+这项技能对互联网的创建至关重要。如果没有人想象出这一大多数人现在每天视为理所当然的基础技术，就不会有猫meme的表情包出现。
 
-To make the Internet possible, two things that needed imagining were  _layers_  and  _protocols._
+为了使互联网成为可能，需要想象能力的两个东西是 _层_ 和 _协议_。
 
-Layers are conceptual divides that group similar functions together. The word “protocol,” means “the way we’ve agreed to do things around here,” more or less.
+层是概念性的划分，意味着将相似的功能分组在一起。而协议这个词大致意味着我们在这里同意做事情的方式。
 
-In short, both layers and protocols can be explained to a five-year-old as “ideas that people agreed sounded good, and then they wrote them down so that other people could do things with the same ideas.”
+简而言之，可以将层和协议解释给一个五岁的孩子听，就像是，出现了人们认为听起来不错的主意，然后他们把这些主意写下来，这样其他人就可以用同样的主意来做事情了。
 
-The Internet Protocol Suite is described in terms of layers and protocols. Collectively, the suite refers to the communication protocols that enable our endless scrolling.
+互联网协议套件按照层次结构和协议来描述。总体而言，该套件指的是使我们能够无尽滚动的通信协议。
 
-It’s often called by its foundational protocols: the Transmission Control Protocol (TCP) and the Internet Protocol (IP). Lumped together as TCP/IP, these protocols describe how data on the Internet is packaged, addressed, sent, and received.
+它通常以其基础协议而闻名：传输控制协议（TCP）和互联网协议（IP）。这些协议一起被称为TCP/IP，它们描述了互联网上的数据是如何打包、寻址、发送和接收的。
 
-Here’s why the Internet Protocol Suite, or TCP/IP, is an imaginary rainbow layer cake.
+这就是为什么互联网协议套件或TCP/IP是一个想象中的彩虹层蛋糕。
 
-## **Layers are imaginary**
+## **图层是虚构的**
 
-If you consider the general nature of a rainbow layer sponge cake, it’s mostly made up of soft, melt-in-your mouth vanilla-y goodness. This goodness is in itself comprised of something along the lines of eggs, butter, flour, and sweetener.
+如果你考虑一下彩虹层海绵蛋糕的一般性质，它主要是由柔软、入口即化的香草制成的。这种好处本身就是由鸡蛋、黄油、面粉和甜味剂等组成的。
 
-![Cartoon of a slice of rainbow layer cake, reads &ldquo;Yay! Free cake!&quot;](https://www.freecodecamp.org/news/content/images/2020/11/free-cake.png)
+![一片彩虹层蛋糕的卡通牌子，上面写着“；耶！免费蛋糕”](https://www.freecodecamp.org/news/content/images/2020/11/free-cake.png)
 
-There isn’t much to distinguish one layer of a rainbow sponge cake from another. Often, the only difference between layers is the food-coloring and a bit of frosting. When you think about it, it’s all cake from top to bottom. The rainbow layers are only there because the baker thought they ought to be.
+彩虹海绵蛋糕的一层和另一层没有太大区别。通常，层之间的唯一区别是食用色素和一点糖霜。仔细想想，从上到下都是小菜一碟。彩虹层之所以存在，是因为面包师认为它们应该存在。
 
-Similar to cake ingredients, layers in the context of computer networking are mostly composed of protocols, algorithms, and configurations, with some data sprinkled in.
+与蛋糕配料类似，计算机网络环境中的层主要由协议、算法和配置组成，其中还夹杂着一些数据。
 
-It can be easier to talk about computer networking if its many functions are split up into groups, so certain people came up with descriptions of layers, which we call network models. TCP/IP is just one network model among others. In this sense, layers are concepts, not things.
-
-Some of the people in question are part of the Internet Engineering Task Force (IETF). They created the  [RFC-1122][1]  publication, discussing the Internet’s communications layers. Half of a whole, the standard:
+如果将计算机网络的许多功能分成组，那么谈论计算机网络会更容易，因此某些人提出了对层的描述，我们称之为网络模型。TCP/IP只是众多网络模型中的一种。从这个意义上说，层是概念，而不是事物。
+其中一些人是互联网工程任务组（IETF）的成员。他们创造了  [RFC-1122][1]  出版物，讨论互联网的通信层。几乎一半，都是制定的标准：
 
 > ……covers the communications protocol layers: link layer, IP layer, and transport layer; its companion  [RFC-1123][2]  covers the application and support protocols.
 
