@@ -1,13 +1,13 @@
 > * 原文：[What is TCP/IP? Layers and Protocols Explained TCP/IP 协议详解](https://www.freecodecamp.org/news/what-is-tcp-ip-layers-and-protocols-explained/)
 > * 作者：Victoria Drake
-> * 译者：
+> * 译者：Albert210
 > * 校对者：
 
-![What is TCP/IP? Layers and Protocols Explained](https://www.freecodecamp.org/news/content/images/size/w2000/2020/11/cover-2.png)
+![TCP/IP是什么？层和协议解释](https://www.freecodecamp.org/news/content/images/size/w2000/2020/11/cover-2.png)
 
-A significant part of the process of creating something is the ability to imagine things that do not yet exist.
+创造某物的过程中，很重要的一部分是能够想象出尚未存在的事物。
 
-This skill was instrumental to the creation of the Internet. If no one had imagined the underlying technology that most now take for granted every day, there would be no cat memes.
+这项技能对互联网的创建至关重要。如果没有人想象过大多数人现在每天视为理所当然的基础技术，就不会有猫的梗图。
 
 To make the Internet possible, two things that needed imagining were  _layers_  and  _protocols._
 
