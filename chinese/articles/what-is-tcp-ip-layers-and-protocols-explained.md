@@ -68,23 +68,23 @@ IPv4的使用更为广泛，但只有 [32 bits for addressing][5], 允许大约4
 
 本文首次描述了传输控制程序，这一概念涵盖了最终被称为传输控制协议（TCP）和用户数据报协议（UDP）的内容。(我很高兴见到温特，我可以亲自确认，是的，他看起来确实很像《黑客帝国》电影中的建筑师。)
 
-![Transport cake layer cartoon](https://www.freecodecamp.org/news/content/images/2020/11/transport.png)
+![运输蛋糕层卡通](https://www.freecodecamp.org/news/content/images/2020/11/transport.png)
 
-The  [transport layer][8]  presently encapsulates TCP and UDP. Like IP, UDP is connectionless and can be used to prioritize time over reliability.
+这一 [传输层][8] 目前封装TCP和UDP。与IP一样，UDP是无连接的，可用于优先考虑时间而非可靠性。
 
-TCP, on the other hand, is a connection-oriented transport layer protocol that prioritizes reliability over latency, or time. TCP describes transferring data in the same order as it was sent, retransmitting lost packets, and controls affecting the rate of data transmission.
+另一方面，TCP是一种面向连接的传输层协议，它将可靠性置于延迟或时间之上。TCP描述了以与发送相同的顺序传输数据、重新传输丢失的数据包以及影响数据传输速率的控制。
 
-## **Application layer protocols**
+## **应用层协议**
 
-![Application cake layer cartoon](https://www.freecodecamp.org/news/content/images/2020/11/application.png)
+![应用蛋糕层卡通](https://www.freecodecamp.org/news/content/images/2020/11/application.png)
 
-The application layer describes the protocols that software applications interact with most often. The specification includes descriptions of the remote login protocol  [Telnet][9], the  [File Transfer Protocol (FTP)][10], and the  [Simple Mail Transfer Protocol (SMTP)][11].
+应用层描述了软件应用程序最常与之交互的协议。该规范包括远程登录协议的描述[协议][9], 这一[文件传输协议(FTP)][10], 和[简单邮件传输协议(SMTP)][11].
 
-Also included in the application layer are the Hypertext Transfer Protocol (HTTP) and its successor, Hypertext Transfer Protocol Secure (HTTPS).
+应用层还包括超文本传输协议（HTTP）及其后续协议超文本传输安全协议(HTTPS)。
 
-HTTPS is secured by Transport Layer Security, or TLS, which can be said to be the top-most layer of the networking model described by the Internet protocol suite.
+HTTPS由传输层安全（TLS）保护，TLS可以说是互联网协议套件描述的网络模型的最顶层。
 
-If you’d like to further understand TLS and how this protocol secures your cat meme viewing, I invite you  [read my article about TLS and cryptography][12].
+如果你想进一步了解TLS以及该协议如何保护你的猫模因观看，我邀请你[阅读我关于TLS和密码学的文章][12].
 
 ## **The Internet cake is still baking**
 
