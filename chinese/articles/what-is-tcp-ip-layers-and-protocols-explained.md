@@ -34,23 +34,23 @@
 如果将计算机网络的许多功能分成组，那么谈论计算机网络会更容易，因此某些人提出了对层的描述，我们称之为网络模型。TCP/IP只是众多网络模型中的一种。从这个意义上说，层是概念，而不是事物。
 其中一些人是互联网工程任务组（IETF）的成员。他们创造了  [RFC-1122][1]  出版物，讨论互联网的通信层。几乎一半，都是制定的标准：
 
-> ……covers the communications protocol layers: link layer, IP layer, and transport layer; its companion  [RFC-1123][2]  covers the application and support protocols.
+> ……涵盖通信协议层：链路层、IP层和传输层; 它的伙伴  [RFC-1123][2]  涵盖了应用程序和支持协议。
 
-The layers described by RFC-1122 and RFC-1123 each encapsulate protocols that satisfy the layer’s functionality. Let’s look at each of these communications layers and see how TCP and IP stack up in this model of the Internet layer cake.
+RFC-1122和RFC-1123描述的每一层都封装了满足该层功能的协议。让我们看看这些通信层中的每一层，看看TCP和IP在这个互联网层蛋糕模型中究竟是如何堆叠的。
 
-## **Link layer protocols**
+## **链路层协议**
 
-![Link cake layer cartoon](https://www.freecodecamp.org/news/content/images/2020/11/link.png)
+![链接蛋糕层卡通](https://www.freecodecamp.org/news/content/images/2020/11/link.png)
 
-The  [link layer][3]  is the most basic, or lowest-level, classification of communication protocol. It deals with sending information between hosts on the same local network, and translating data from the higher layers to the physical layer.
+这一[链路层][3]  是通信协议的最基本或最低级别的分类。它处理在同一本地网络上的主机之间发送信息，并将数据从更高层转换到物理层。
 
-Protocols in the link layer describe how data interacts with the transmission medium, such as electronic signals sent over specific hardware. Unlike other layers, link layer protocols are dependent on the hardware being used.
+链路层中的协议描述了数据如何与传输介质交互，例如通过特定硬件发送的电子信号。与其他层不同，链路层协议取决于所使用的硬件。
 
-## **Internet layer protocols**
+## **互联网层协议**
 
-Protocols in the  [Internet layer][4]  describe how data is sent and received over the Internet. The process involves packaging data into packets, addressing and transmitting packets, and receiving incoming packets of data.
+在 [互联网层][4] 中的协议描述如何通过互联网发送和接收数据。该过程涉及将数据打包成数据包，寻址和传输数据包，以及接收传入的数据包。
 
-![Internet cake layer cartoon](https://www.freecodecamp.org/news/content/images/2020/11/internet.png)
+![网络蛋糕层卡通](https://www.freecodecamp.org/news/content/images/2020/11/internet.png)
 
 The most widely known protocol in this layer gives TCP/IP its last two letters. IP is a connectionless protocol, meaning that it provides no guarantee that packets are sent or received in the right order, along the same path, or even in their entirety.
 
