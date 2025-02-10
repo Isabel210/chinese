@@ -1,6 +1,6 @@
 > * 原文：[TCP/IP 是什么？层和协议解释](https://www.freecodecamp.org/news/what-is-tcp-ip-layers-and-protocols-explained/)
 > * 作者：Victoria Drake（维多利亚·德雷克）
-> * 译者：Albert210（阿尔伯特210）
+> * 译者：Isabel Albert210（伊莎贝尔·阿尔伯特210）
 > * 校对者：
 
 ![TCP/IP是什么？层和协议解释](https://www.freecodecamp.org/news/content/images/size/w2000/2020/11/cover-2.png)
@@ -58,9 +58,9 @@ RFC-1122和RFC-1123描述的每一层都封装了满足该层功能的协议。�
 
 目前使用的IP有两个版本：IPv4和IPv6。这两个版本都描述了如何为互联网上的设备分配IP地址，这些地址在导航到猫meme的梗图时使用。
 
-IPv4的使用更为广泛，但只有 [32 bits for addressing][5], 允许大约43亿（约4.3×109）个可能的地址。这些正在耗尽，随着越来越多的人在互联网上使用更多的设备，IPv4最终将遭受地址耗尽。
+IPv4的使用更为广泛，但只有 [32位用于寻址][5], 允许大约43亿（约4.3×109）个可能的地址。这些正在耗尽，随着越来越多的人在互联网上使用更多的设备，IPv4最终将遭受地址耗尽。
 
-后续版本IPv6旨在通过 [using 128 bits for addresses][6]的方式解决网址耗尽问题。This provides, um,这提供了，嗯，更多地址的可能性。(ca. 3.4×1038)
+后续版本IPv6旨在通过 [使用128位地址][6]的方式解决网址耗尽问题。这提供了，嗯，拥有更多地址的可能性。(ca. 3.4×1038)
 
 ## **传输层协议**
 
