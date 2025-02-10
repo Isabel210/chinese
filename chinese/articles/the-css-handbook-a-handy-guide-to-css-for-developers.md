@@ -1,13 +1,14 @@
 > -   原文地址：[The CSS Handbook: a handy guide to CSS for developers](https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/)
-> -   原文作者：[Flavio Copes](https://www.freecodecamp.org/news/author/flavio/)
-> -   译者：
+> -   原文作者：[弗拉维奥·科佩斯](https://www.freecodecamp.org/news/author/flavio/)
+> -   译者：Albert210
 > -   校对者：
 
-![The CSS Handbook: a handy guide to CSS for developers](https://cdn-media-1.freecodecamp.org/images/1*aeXtrs9UI4WniMd1miDIDw.png)
+《CSS手册：开发者的CSS实用指南》
+(https://cdn-media-1.freecodecamp.org/images/1*aeXtrs9UI4WniMd1miDIDw.png)
 
-I wrote this article to help you quickly learn CSS and get familiar with the advanced CSS topics.
+我写这篇文章是为了帮助你快速学习CSS并熟悉高级的CSS主题。
 
-CSS is often quickly dismissed as an easy thing to learn by developers, or one thing you just pick up when you need to quickly style a page or app. Due to this reason, it’s often learned on-the-fly, or we learn things in isolation right when we have to use them. This can be a huge source of frustration when we find that the tool does not simply do what we want.
+CSS常被开发者轻视，认为它是容易学习的东西或者是在需要快速设计一个页面或应用时才去了解的知识。因为这个原因，它常常是在临时抱佛脚的状态下被学习的，或者当我们必须使用它时，我们才孤立地去学习它。但是当我们发现这个工具并不像我们期望的那样简单地运行时，我们可能会因此感到非常沮丧。
 
 This article will help you get up to speed with CSS and get an overview of the main modern features you can use to style your pages and apps.
 
