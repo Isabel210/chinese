@@ -86,13 +86,13 @@ HTTPS由传输层安全（TLS）保护，TLS可以说是互联网协议套件描
 
 如果你想进一步了解TLS以及该协议如何保护你的猫模因观看，我邀请你[阅读我关于TLS和密码学的文章][12].
 
-## **The Internet cake is still baking**
+## **互联网蛋糕还在烘焙**
 
-Like a still-rising sponge cake, descriptions of layers, better protocols, and new models are being developed every day. The Internet, or whatever it will become in the future, is still in the process of being imagined.
+就像一块仍在上升的海绵蛋糕一样，对层的描述、更好的协议和新的模型每天都在开发中。互联网，无论它将来会变成什么，都仍在被想象的过程中。
 
-![Cartoon of the full Internet layer cake, topped with Nyan Cat memes](https://www.freecodecamp.org/news/content/images/2020/11/cake.png)
+![全互联网层蛋糕卡通，上面有彩虹猫表情包](https://www.freecodecamp.org/news/content/images/2020/11/cake.png)
 
-If you enjoyed learning from this post, there’s a lot more where this came from! I write about computing, cybersecurity, and building great technical teams. Join the thousands of people who learn from my articles on  [victoria.dev][13]! Visit and subscribe by email or RSS to see new articles first.
+如果你喜欢从这篇文章中学习，那么这篇文章的来源还有很多！我写的是关于计算、网络安全和建立优秀技术团队的文章。加入那些成千上万的从我的文章[victoria.dev][13]中学习的人! 访问并通过电子邮件或RSS订阅，之后首先查看新文章。
 
 [1]: https://tools.ietf.org/html/rfc1122
 [2]: https://tools.ietf.org/html/rfc1123
