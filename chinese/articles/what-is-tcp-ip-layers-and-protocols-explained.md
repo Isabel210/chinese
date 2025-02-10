@@ -52,21 +52,21 @@ RFC-1122和RFC-1123描述的每一层都封装了满足该层功能的协议。�
 
 ![网络蛋糕层卡通](https://www.freecodecamp.org/news/content/images/2020/11/internet.png)
 
-The most widely known protocol in this layer gives TCP/IP its last two letters. IP is a connectionless protocol, meaning that it provides no guarantee that packets are sent or received in the right order, along the same path, or even in their entirety.
+这一层中最广为人知的协议赋予TCP/IP最后两个字母。IP是一种无连接协议，这意味着它不能保证数据包按照正确的顺序、沿着相同的路径甚至完整地发送或接收。
 
-Reliability is handled by other protocols in the suite, such as in the transport layer.
+可靠性由套件中的其他协议处理，例如在传输层。
 
-There are currently two versions of IP in use: IPv4, and IPv6. Both versions describe how devices on the Internet are assigned IP addresses, which are used when navigating to cat memes.
+目前使用的IP有两个版本：IPv4和IPv6。这两个版本都描述了如何为互联网上的设备分配IP地址，这些地址在导航到猫模因时使用。
 
-IPv4 is more widely used, but has only  [32 bits for addressing][5], allowing for about 4.3 billion (ca. 4.3×109) possible addresses. These are running out, and IPv4 will eventually suffer from address exhaustion as more and more people use more devices on the Internet.
+IPv4的使用更为广泛，但只有 [32 bits for addressing][5], 允许大约43亿（约4.3×109）个可能的地址。这些正在耗尽，随着越来越多的人在互联网上使用更多的设备，IPv4最终将遭受地址耗尽。
 
-The successor version IPv6 aims to solve address exhaustion by  [using 128 bits for addresses][6]. This provides, um, a  _lot_  more address possibilities (ca. 3.4×1038).
+后续版本IPv6旨在通过 [using 128 bits for addresses][6]的方式解决网址耗尽问题。This provides, um,这提供了，嗯，更多地址的可能性。(ca. 3.4×1038)
 
-## **Transport layer protocols**
+## **传输层协议**
 
-In May 1974, Vint Cerf and Bob Kahn (collectively often called “the fathers of the Internet”) published a paper entitled  [A Protocol for Packet Network Intercommunication][7].
+1974年5月，温特·瑟夫和鲍勃·卡恩（共同称为“互联网之父”）发表了一篇题为[一种分组网络互通协议][7]的文章。
 
-This paper contained the first description of a Transmission Control Program, a concept encompassing what would eventually be known as the Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). (I had the pleasure of meeting Vint and can personally confirm that yes, he does look exactly like The Architect in the Matrix movies.)
+本文首次描述了传输控制程序，这一概念涵盖了最终被称为传输控制协议（TCP）和用户数据报协议（UDP）的内容。(我很高兴见到温特，我可以亲自确认，是的，他看起来确实很像《黑客帝国》电影中的建筑师。)
 
 ![Transport cake layer cartoon](https://www.freecodecamp.org/news/content/images/2020/11/transport.png)
 
