@@ -1,6 +1,6 @@
 > * 原文：[TCP/IP 是什么？层和协议解释](https://www.freecodecamp.org/news/what-is-tcp-ip-layers-and-protocols-explained/)
 > * 作者：Victoria Drake（维多利亚·德雷克）
-> * 译者：Albert210（阿尔伯特210）
+> * 译者：Isabel Albert210（伊莎贝尔·阿尔伯特210）
 > * 校对者：
 
 ![TCP/IP是什么？层和协议解释](https://www.freecodecamp.org/news/content/images/size/w2000/2020/11/cover-2.png)
