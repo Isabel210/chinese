@@ -1,33 +1,34 @@
 > -   原文地址：[The CSS Handbook: a handy guide to CSS for developers](https://www.freecodecamp.org/news/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11/)
-> -   原文作者：[Flavio Copes](https://www.freecodecamp.org/news/author/flavio/)
-> -   译者：
+> -   原文作者：[弗拉维奥·科佩斯](https://www.freecodecamp.org/news/author/flavio/)
+> -   译者：Albert210
 > -   校对者：
 
-![The CSS Handbook: a handy guide to CSS for developers](https://cdn-media-1.freecodecamp.org/images/1*aeXtrs9UI4WniMd1miDIDw.png)
+《CSS手册：开发者的CSS实用指南》
+(https://cdn-media-1.freecodecamp.org/images/1*aeXtrs9UI4WniMd1miDIDw.png)
 
-I wrote this article to help you quickly learn CSS and get familiar with the advanced CSS topics.
+我写这篇文章是为了帮助你快速学习CSS并熟悉高级的CSS主题。
 
-CSS is often quickly dismissed as an easy thing to learn by developers, or one thing you just pick up when you need to quickly style a page or app. Due to this reason, it’s often learned on-the-fly, or we learn things in isolation right when we have to use them. This can be a huge source of frustration when we find that the tool does not simply do what we want.
+CSS常被开发者轻视，认为它是容易学习的东西或者是在需要快速设计一个页面或应用时才去了解的知识。因为这个原因，它常常是在临时抱佛脚的状态下被学习的，或者当我们必须使用它时，我们才孤立地去学习它。但是当我们发现这个工具并不像我们期望的那样简单地运行时，我们可能会因此感到非常沮丧。
 
-This article will help you get up to speed with CSS and get an overview of the main modern features you can use to style your pages and apps.
+本文将帮助您快速掌握CSS，并概述这之中您可以用来为页面和应用程序设置样式的现代主要功能。
 
-I hope to help you get comfortable with CSS and get you quickly up to speed with using this awesome tool that lets you create stunning designs on the Web.
+我希望帮助您熟悉CSS，并让您迅速上手去使用这个强大的工具，以便在网络上创建令人惊叹的设计。
 
-[**Click here to get a PDF / ePub / Mobi version of this post to read offline**][1]
+[**点击这里获取此帖子的PDF/ePub/Mobi版本用以离线阅读**][1]
 
-CSS, a shorthand for Cascading Style Sheets, is one of the main building blocks of the Web. Its history goes back to the 90’s, and along with HTML it has changed a lot since its humble beginnings.
+CSS（层叠样式表的缩写）是网页构建的主要组成部分之一。它的历史可以追溯到90年代，并且随着HTML一起，自其谦逊的开端以来发生了很大变化。
 
-As I’ve been creating websites since before CSS existed, I have seen its evolution.
+由于我自CSS出现之前就开始创建网站，我见证了它的演变。
 
-CSS is an amazing tool, and in the last few years it has grown a lot, introducing many fantastic features like CSS Grid, Flexbox and CSS Custom Properties.
+CSS是一个强大的工具，在过去几年中它得到了极大的发展，引入了许多出色的特性，如CSS网格布局、弹性盒模型和自定义属性。
 
-This handbook is aimed at a vast audience.
+这本手册旨在面向广泛的受众。
 
-First, the beginner. I explain CSS from zero in a succinct but comprehensive way, so you can use this book to learn CSS from the basics.
+首先，对于初学者。我以简洁但全面的方式从零开始解释CSS，因此你可以使用这本书从基础学习CSS。
 
-Then, the professional. CSS is often considered like a secondary thing to learn, especially by JavaScript developers. They know CSS is not a real programming language, they are programmers and therefore they should not bother learning CSS the right way. I wrote this book for you, too.
+然后，专业人士。CSS常常被认为是一个次要的学习内容，尤其是对于JavaScript开发者来说。他们知道CSS并不是一种真正的编程语言，他们是程序员，因此他们不应该费心去正确地学习CSS。我也为你写了这本书。
 
-Next, the person that knows CSS from a few years but hasn’t had the opportunity to learn the new things in it. We’ll talk extensively about the new features of CSS, the ones that are going to build the web of the next decade.
+接下来，我们谈谈那些几年前就开始学习CSS的人，但他们没有机会学习其中的新东西。我们将深入讨论CSS的新特性，这些新特性将在未来十年构建网络。
 
 CSS has improved a lot in the past few years and it’s evolving fast.
 
